@@ -1,0 +1,78 @@
+.header{
+  margin-top: 55px;
+  margin-left: 2px;
+}
+.leftcolumn {
+  float: left;
+  width: 100%;
+  margin-left: 10px;
+}
+
+#descricao{
+  margin-left: 8px;
+}
+
+#descricao h2{
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+#descricao h4{
+  margin-top: 10px;
+}
+
+#imagem{
+  float:right;
+  margin-right: -200px;
+  margin-top: -330px;
+}
+
+.card {
+  background-color: white;
+  padding: 0px;
+  width: 98%;
+  height:400px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+}
+
+.card2 {
+  background-color: white;
+  padding: 0px;
+  width: 98%;
+  height:680px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  display: inline-block;
+
+}
+
+.card3{
+  background-color: white;
+  padding: 0px;
+  width: 98%;
+  height:550px;
+  margin-top: 30px;
+  margin-left: 10px;
+  display: inline-block;
+
+}
+
+.card3 .obrigatorio{
+    color: red;
+}
+
+.coluna{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.tabela{
+  border:1px;
+  margin-right:20px;
+  margin-left: 20px;
+}

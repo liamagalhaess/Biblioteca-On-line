@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>BBO - Biblioteca Books On-line</title>
+
+  <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS File -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- CSS File -->
+  <link type="text/css" rel="stylesheet" href="css/index.css"/>
+  <link type="css/style" rel="stylesheet" href="css/style.css"/>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+<body>
+
+<header class="imagem-principal">
+  <div class="header">
+    <img src="images/biblioteca2.jpg" alt="Biblioteca" style="width:1339px;height:400px;">
+  </div>
+</header>
+
+
+<!--/ Nav Star /-->
+<nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
+  <div class="container">
+      <a class="navbar-brand text-brand" href="index.html" id="navbarDropdown2">
+        <img src="images/logo.png" width="50px"height="50px"/>
+        <strong>BBO</strong>
+      </a>
+    <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Página Inicial</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Categorias
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#fantasia">Fantasia</a>
+            <a class="dropdown-item" href="#romance">Romance</a>
+            <a class="dropdown-item" href="#acao">Ação e Aventura</a>
+            <a class="dropdown-item" href="#">...</a>
+          </div>
+        </li>
+
+        <li class="nav-item" id="navbarDropdown">
+          <div  title="Navegacao">
+            <!-- Já cada href tem sua seta feita em arquivo css separado e parte aqui mesmo -->
+            <div class="nav-link">
+              <a href="#footer" class="scroll">
+                <div id="BotaoScroll"  style="-moz-transform: rotate(180deg); -o-transform: rotate(180deg);-webkit-transform: rotate(180deg);transform: rotate(180deg);margin: 3px;" title="Ir para Rodapé"></div>Contato</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item" id="navbarDropdown">
+          <a class="nav-link" href="index.html">Acessibilidade</a>
+        </li>
+
+        <li class="nav-item" id="navbarDropdown1">
+          <a class="nav-link" href="index.html">
+            <img src="images/carrinho.png" width="40px"height="40px"/>
+          </a>
+        </li>
+
+
+      </ul>
+    </div>
+    <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+      data-target="#navbarTogglerDemo01" aria-expanded="false">
+      <span class="fa fa-search" aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <h3>Fantasia</h3>
+    <div class="card" id="passar_mouse">
+      <div class="col-sm-12 left" id="fantasia">
+        <div class="teste">
+          <h5>Trono de Vidro </h5>
+          <p>por Sarah J. Mass</p>
+          <br>
+        <div class="fakeimg" id="img1">
+          <img align="left" src="images/Livro3.jpg" alt="Livro Trono de Vidro" width="150px" height="200px">
+        </div>
+          <div class="texto">
+          <a href="">
+            <br>
+            <p>Ver mais<p>
+
+              <div class="floatleft">
+                  <a href="#pagamento" class="scroll" id="comprar">
+                    <button type="button" class="btn btn-success">Comprar</button>
+                  </a>
+              </div>
+
+
+
+
+
+          </div>
+        </div>
+        <div class="l1">
+            <div class="info">
+              <strong><h4>Mais de X.XXX cópias vendidas</h4></strong>
+              <h4>Por apenas:<br>
+              R$ 39,90</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="col-sm-12 left">
+        <h5>A Rainha Vermelha </h5>
+        <p>por Victoria Aveyard</p>
+
+        <div class="fakeimg">
+          <img align="left" src="images/rainha_vermelha.jpg" alt="Livro A Rainha Vermelha" width="150px" height="200px">
+        </div>
+          <div class="texto">
+            <br>
+          <a href="">
+            <p>Ver mais<p>
+          </a>
+          <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="col-sm-12 left">
+        <h5>O Nome do Vento</h5>
+        <p>por Patrick Rothfuss </p>
+        <br>
+        <div class="fakeimg">
+          <img align="left" src="images/nome_do_vento.jpg" alt="Livro O Nome do Vento" width="150px" height="200px">
+        </div>
+          <div class="texto">
+            <br>
+          <a href="">
+            <p>Ver mais<p>
+          </a>
+          <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="col-sm-12 left">
+        <h5>Jogos Vorazes</h5>
+        <p>por Suzanne Collins </p>
+        <br>
+        <div class="fakeimg">
+          <img align="left" src="images/jogos_vorazes.jpg" alt="Livro Jogos Vorazes" width="150px" height="200px">
+        </div>
+        <div class="texto">
+          <br>
+          <a href="">
+            <p>Ver mais<p>
+          </a>
+          <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="col-sm-12 left">
+        <h5>Cidade dos Ossos</h5>
+        <p>por Cassandra Clare </p>
+        <br>
+        <div class="fakeimg">
+          <img align="left" src="images/cidade_dos_ossos.jpg" alt="Livro Cidade dos Ossos" width="150px" height="200px">
+        </div>
+        <div class="texto">
+          <br>
+          <a href="">
+            <p>Ver mais<p>
+          </a>
+          <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="col-sm-12 left">
+        <h5>O Hobbit</h5>
+        <p>por J. R. R. Tolkien</p>
+        <br>
+        <div class="fakeimg">
+          <img align="left" src="images/hobbit.jpg" alt="Livro o Hobbit" width="150px" height="200px">
+        </div>
+          <div class="texto">
+            <br>
+          <a href="">
+            <p>Ver mais<p>
+          </a>
+          <button type="button" class="btn btn-success">Comprar</button>
+          </div>
+
+      </div>
+    </div>
+
+    <!--<div class="button">
+      <a href="#" class="btn btn-primary btn-custom">
+      <span class="glyphicon glyphicon-ok img-circle text-primary btn-icon"></span>
+      Acessar
+      </a>
+    </div>-->
+  </div >
+</div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <br><br>
+        <h3>Romance</h3>
+        <div class="card" id="romance">
+          <div class="col-sm-12 left">
+            <h5>A Culpa é das Estrelas</h5>
+            <p>por John Green </p>
+            <div class="fakeimg">
+              <img align="left" src="images/a_culpa_e_das_estrelas.jpg" alt="Livro A Culpa é das Estrelas" width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="verMais.html">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="col-sm-12 left">
+            <h5>A Seleção</h5>
+            <p>por Kiera Cass </p>
+            <br>
+            <div class="fakeimg">
+              <img align="left" src="images/selecao.jpg" alt="Livro A Seleção" width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="col-sm-12 left">
+            <h5>Como eu era antes de você</h5>
+            <p>por Jojo Moyes </p>
+            <div class="fakeimg">
+              <img align="left" src="images/como_eu_era.jpg" alt="Livro o Poder do Hábito" width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="col-sm-12 left">
+            <h5>Um Lugar Bem Longe Daqui</h5>
+            <p>por Delia Owens</p>
+
+            <div class="fakeimg">
+              <img align="left" src="images/um_lugar.jpg" alt="Livro Um Lugar Bem Longe Daqui" width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="col-sm-12 left">
+            <h5>A Menina que Roubava Livros</h5>
+            <p>por Markus Zusak </p>
+            <div class="fakeimg">
+              <img align="left" src="images/a_menina_que_roubava_livros.jpg" alt="Livro A menina que roubava livros" width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="col-sm-12 left">
+            <h5>PS, Eu Te Amo</h5>
+            <p>por Cecelia Ahern </p>
+            <br>
+            <div class="fakeimg">
+              <img align="left" src="images/ps.jpg" alt="Livro PS, Eu Te Amo " width="150px" height="200px">
+
+              <div class="texto">
+                <br><br><br><br><br><br><br><br><br>
+              <a href="">
+                <p>Ver mais<p>
+              </a>
+              <button type="button" class="btn btn-success">Comprar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+        <div class="row">
+          <div class="leftcolumn">
+            <br><br>
+            <h3>Ação e Aventura</h3>
+            <div class="card" id="acao">
+              <div class="col-sm-12 left">
+                <h5>A Lâmina da Assassina</h5>
+                <p>por Sarah J. Maas  </p>
+                <div class="fakeimg">
+                  <img align="left" src="images/lamina_da_assassina.jpg" alt="Livro A Lâmina da Assassina" width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="col-sm-12 left">
+                <h5>Corte de espinhos e rosas </h5>
+                <p>por Sarah J. Maas</p>
+                <div class="fakeimg">
+                  <img align="left" src="images/corte_de_espinhos.jpg" alt="Livro Corte de espinhos e rosas " width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="col-sm-12 left">
+                <h5>Inferno</h5>
+                <p>por Dan Brown</p>
+                <br>
+                <div class="fakeimg">
+                  <img align="left" src="images/inferno.jpg" alt="Livro Inferno" width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="col-sm-12 left">
+                <h5>Harry Potter e a Pedra Filosofal</h5>
+                <p>por J.K. Rowling </p>
+                <div class="fakeimg">
+                  <img align="left" src="images/harry_potter.jpg" alt="Livro Harry Potter e a Pedra Filosofal" width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="col-sm-12 left">
+                <h5>Os Seis Finalistas</h5>
+                <p>por Alexandra Monir  </p>
+                <br>
+                <div class="fakeimg">
+                  <img align="left" src="images/os_seis_finalistas.jpg" alt="Livro Os Seis Finalistas" width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="col-sm-12 left">
+                <h5>Caverna do Dragão-O Reino</h5>
+                <p>por D4mon3 </p>
+                <div class="fakeimg">
+                  <img align="left" src="images/caverna_do_dragao.jpg" alt="Livro Caverna do Dragão-O Reino" width="150px" height="200px">
+
+                  <div class="texto">
+                    <br><br><br><br><br><br><br><br><br>
+                  <a href="">
+                    <p>Ver mais<p>
+                  </a>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+</div>
+
+
+
+  <div id="footer" class="scroll">
+    <footer>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="texto_rodape" class="large-8 medium-8 columns hide-for-small-only">
+              <br> <br>
+              <p><span style="font-size: 1.5em;"><strong>BBO - Biblioteca Books On-line</strong></span> <br>
+              <span style="font-size: 1.3em;">A maior variedade de livros que voocê já viu</span> <br>
+              <br>
+              <span style="font-size: 0.9em;">Rua Lalalala, 460 - 1º andar<br>
+                CEP:00000-000 - Curitiba (PR) - Brasil<br>
+                  Telefones: (41) 0000 - 0000<br>
+                  E-mail: bbobibliotecabooksonline@gmail.com<br>
+              </span>
+              <img src="images/logo.png" width="90px"height="90px"/>
+             </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/jquery/efeitos.js"></script>
+
+</body>
+</html>
