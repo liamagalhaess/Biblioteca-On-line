@@ -1,2 +1,5 @@
-# Projeto da Disciplina
+# Projeto da Disciplina de Desenvolvimento Web
+## Por: Lia Daiely Magalhães
 
+### A BBO - Biblioteca on-line, como o próprio nome já diz, é um site que disponibiliza diversos livros para a venda.
+### Estes livros podem ser encontrados pelas sus respectivas categorias, sendo elas: Fantasia; Romance; e Ação e aventura.
